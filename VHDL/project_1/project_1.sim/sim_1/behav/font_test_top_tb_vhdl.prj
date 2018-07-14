@@ -1,0 +1,13 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  "../../../project_1.srcs/sources_1/new/Asciiconve.vhd"
+vhdl xil_defaultlib  "../../../project_1.srcs/sources_1/imports/new/ClockNBtn.vhd"
+vhdl xil_defaultlib  "../../../project_1.srcs/sources_1/imports/new/debounce.vhd"
+vhdl xil_defaultlib  "../../../project_1.srcs/sources_1/new/font_test_gen.vhd"
+vhdl xil_defaultlib  "../../../project_1.srcs/sources_1/new/vga_sync.vhd"
+vhdl xil_defaultlib  "../../../project_1.srcs/sources_1/new/font_test_top.vhd"
+vhdl xil_defaultlib  "../../../project_1.srcs/sim_1/imports/new/Asciiconve_tb.vhd"
+vhdl xil_defaultlib  "../../../project_1.srcs/sim_1/new/font_gen_top_tb.vhd"
+vhdl xil_defaultlib  "../../../project_1.srcs/sim_1/new/vga_test_tb.vhd"
+
+# Do not sort compile order
+nosort

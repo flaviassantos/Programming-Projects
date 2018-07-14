@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1523608863">
+  <File Type="PA-TCL" Name="font_test_top.tcl"/>
+  <File Type="REPORTS-TCL" Name="font_test_top_reports.tcl"/>
+  <File Type="RDS-RDS" Name="font_test_top.vds"/>
+  <File Type="RDS-UTIL" Name="font_test_top_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="font_test_top_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="font_test_top.dcp"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/Asciiconve.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../../../../../../../../../../../../../../../../../Xilinx/Project/Clock_VGA/Clock_VGA.srcs/sources_1/new/Asciiconve.vhd"/>
+        <Attr Name="ImportTime" Val="1519666412"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/ClockNBtn.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../../../../../../../../../../../../Documents/Skole/HardSoft/Asig2/Poject_tames/Poject_tames.srcs/sources_1/new/ClockNBtn.vhd"/>
+        <Attr Name="ImportTime" Val="1518036856"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/font_test_gen.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../../../../../../../../../../../../../../../../../Xilinx/Project/Clock_VGA/Clock_VGA.srcs/sources_1/new/font_test_gen.vhd"/>
+        <Attr Name="ImportTime" Val="1519666409"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/vga_sync.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../../../../../../../../../../../../../../../../../Xilinx/Project/Clock_VGA/Clock_VGA.srcs/sources_1/new/vga_sync.vhd"/>
+        <Attr Name="ImportTime" Val="1519125690"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/font_test_top.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../../../../../../../../../../../../../../../../../Xilinx/Project/Clock_VGA/Clock_VGA.srcs/sources_1/new/font_test_top.vhd"/>
+        <Attr Name="ImportTime" Val="1519127123"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/project_1/archive_project_summary.txt">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../Desktop/project_1/archive_project_summary.txt"/>
+        <Attr Name="ImportTime" Val="1520342328"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Downloads/SpecifyKeys.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../Downloads/SpecifyKeys.vhd"/>
+        <Attr Name="ImportTime" Val="1521549877"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Downloads/ps2_keyboard.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../Downloads/ps2_keyboard.vhd"/>
+        <Attr Name="ImportTime" Val="1521550365"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/imports/debounce.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../Desktop/project_1/project_1.srcs/sources_1/imports/debounce.vhd"/>
+        <Attr Name="ImportTime" Val="1521550302"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="font_test_top"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/new/Asig2.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../../../../../../../../../../../../../../../../../../../Desktop/Poject_tames/Poject_tames.srcs/constrs_1/new/Asig2.xdc"/>
+        <Attr Name="ImportTime" Val="1517936604"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2017"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

@@ -1,0 +1,21 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ssant/Desktop/project_1/project_1.srcs/sources_1/new/Asciiconve.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Asciiconve
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ssant/Desktop/project_1/project_1.srcs/sources_1/imports/new/ClockNBtn.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ClockNBtn
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ssant/Desktop/project_1/project_1.srcs/sources_1/imports/new/debounce.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity debounce
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ssant/Desktop/project_1/project_1.srcs/sources_1/new/font_test_gen.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity font_test_gen
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ssant/Desktop/project_1/project_1.srcs/sources_1/new/vga_sync.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity vga_sync
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ssant/Desktop/project_1/project_1.srcs/sources_1/new/font_test_top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity font_test_top
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ssant/Desktop/project_1/project_1.srcs/sim_1/imports/new/Asciiconve_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Asciiconve_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ssant/Desktop/project_1/project_1.srcs/sim_1/new/font_gen_top_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity font_test_top_tb
+ERROR: [VRFC 10-91] topclock is not declared [C:/Users/ssant/Desktop/project_1/project_1.srcs/sim_1/new/font_gen_top_tb.vhd:40]
+ERROR: [VRFC 10-1504] unit behavioral ignored due to previous errors [C:/Users/ssant/Desktop/project_1/project_1.srcs/sim_1/new/font_gen_top_tb.vhd:17]
+INFO: [VRFC 10-240] VHDL file C:/Users/ssant/Desktop/project_1/project_1.srcs/sim_1/new/font_gen_top_tb.vhd ignored due to errors
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ssant/Desktop/project_1/project_1.srcs/sim_1/new/vga_test_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity vga_test_tb
